@@ -1,0 +1,44 @@
+{
+  "name": "easy_design_patterns",
+  "version": "1.0.0",
+  "description": "Easy Design Patterns with examples in Typescript",
+  "main": "index.js",
+  "scripts": {
+    "Singleton": "npx ts-node-dev --transpile-only ./Creational_Design_Patterns/Singleton/index.ts",
+    "Factory": "npx ts-node-dev --transpile-only ./Creational_Design_Patterns/Factory/index.ts",
+    "AbstractFactory": "npx ts-node-dev --transpile-only ./Creational_Design_Patterns/AbstractFactory/index.ts",
+    "Prototype": "npx ts-node-dev --transpile-only ./Creational_Design_Patterns/Prototype/index.ts",
+    "Builder": "npx ts-node-dev --transpile-only ./Creational_Design_Patterns/Builder/index.ts",
+    "Adapter": "npx ts-node-dev --transpile-only ./Structural_Design_Patterns/Adapter/index.ts",
+    "Composite": "npx ts-node-dev --transpile-only ./Structural_Design_Patterns/Composite/index.ts",
+    "Bridge": "npx ts-node-dev --transpile-only ./Structural_Design_Patterns/Bridge/index.ts",
+    "Decorator": "npx ts-node-dev --transpile-only ./Structural_Design_Patterns/Decorator/index.ts",
+    "Facade": "npx ts-node-dev --transpile-only ./Structural_Design_Patterns/Facade/index.ts",
+    "Flyweight": "npx ts-node-dev --transpile-only ./Structural_Design_Patterns/Flyweight/index.ts",
+    "Proxy": "npx ts-node-dev --transpile-only ./Structural_Design_Patterns/Proxy/index.ts",
+    "Command": "npx ts-node-dev --transpile-only ./Behavioral_Design_Patterns/Command/index.ts",
+    "Interpreter": "npx ts-node-dev --transpile-only ./Behavioral_Design_Patterns/Interpreter/index.ts",
+    "Iterator": "npx ts-node-dev --transpile-only ./Behavioral_Design_Patterns/Iterator/index.ts",
+    "Mediator": "npx ts-node-dev --transpile-only ./Behavioral_Design_Patterns/Mediator/index.ts",
+    "Memento": "npx ts-node-dev --transpile-only ./Behavioral_Design_Patterns/Memento/index.ts",
+    "Observer": "npx ts-node-dev --transpile-only ./Behavioral_Design_Patterns/Observer/index.ts",
+    "State": "npx ts-node-dev --transpile-only ./Behavioral_Design_Patterns/State/index.ts",
+    "Strategy": "npx ts-node-dev --transpile-only ./Behavioral_Design_Patterns/Strategy/index.ts",
+    "Template": "npx ts-node-dev --transpile-only ./Behavioral_Design_Patterns/Template/index.ts",
+    "Visitor": "npx ts-node-dev --transpile-only ./Behavioral_Design_Patterns/Visitor/index.ts",
+    "NullObject": "npx ts-node-dev --transpile-only ./Behavioral_Design_Patterns/NullObject/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "design datterns",
+    "dest dracices",
+    "ypescript",
+    "javascript"
+  ],
+  "author": "Amadou Beye",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.2"
+  }
+}
